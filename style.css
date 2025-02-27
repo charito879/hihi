@@ -1,0 +1,144 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: auto;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Info Section (Home) */
+.info {
+    margin-top: 80px;
+    text-align: center;
+    padding: 20px;
+}
+
+.info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.info a {
+    text-decoration: none;
+    background-color: #ff6347;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Section Styles */
+.section {
+    width: 100%;
+    max-width: 1200px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section p, .section ul {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Skills List */
+#skills ul {
+    list-style-type: none;
+}
+
+#skills ul li {
+    margin: 10px 0;
+}
+
+/* My Works (Projects) */
+#projects ul {
+    list-style-type: none;
+}
+
+#projects ul li {
+    margin: 20px 0;
+}
+
+/* Image Section */
+.image {
+    margin-top: 30px;
+}
+
+.girl {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Icons */
+.icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.icons a {
+    font-size: 24px;
+    color: #333;
+}
+
+.icons a:hover {
+    color: #ff6347;
+}
